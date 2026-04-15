@@ -1,0 +1,91 @@
+:root{
+  --bg: #f7f9fb;
+  --panel: #ffffff;
+  --surface-soft: #edf3f7;
+  --surface-warm: #fff8ec;
+  --text: #17212b;
+  --muted: #465667;
+  --muted2: #6b7a8a;
+  --border: #d8e2ea;
+  --rule: #e3e9ee;
+  --accent: #0f766e;
+  --accent-strong: #0a5f59;
+  --accent-soft: #dff4f1;
+  --accent-border: #99d7d0;
+  --code-bg: #eef2f6;
+  --code-text: #1e2936;
+  --shadow: 0 16px 34px rgba(23,33,43,0.08);
+  --radius: 8px;
+  --max: 1040px;
+}
+
+*{ box-sizing: border-box; }
+html, body{ height: 100%; }
+body{
+  margin: 0;
+  color: var(--text);
+  background:
+    linear-gradient(180deg, #ffffff 0%, var(--bg) 280px),
+    var(--bg);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  line-height: 1.55;
+}
+
+a{ color: inherit; text-decoration: none; }
+a:hover{ text-decoration: underline; }
+
+.container{ max-width: var(--max); margin: 0 auto; padding: 28px 18px; }
+.h1{ font-size: clamp(2rem, 4vw, 3rem); letter-spacing: -0.03em; margin: 0; }
+.h2{ font-size: 1.25rem; margin: 0 0 10px; }
+.p{ margin: 0; color: var(--muted); }
+
+.card{
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.badge{
+  display: inline-flex; gap: 8px; align-items: center;
+  padding: 7px 10px;
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius);
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.btn{
+  display: inline-flex; gap: 10px; align-items: center; justify-content: center;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #ffffff;
+  color: var(--text);
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn:hover{ background: var(--surface-soft); text-decoration: none; }
+.btn.primary{
+  border-color: var(--accent-strong);
+  background: var(--accent);
+  color: #ffffff;
+}
+.btn.primary:hover{ background: var(--accent-strong); }
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 14px;
+}
+
+.col-7{ grid-column: span 7; }
+.col-5{ grid-column: span 5; }
+.col-6{ grid-column: span 6; }
+.col-12{ grid-column: span 12; }
+
+@media (max-width: 900px){
+  .col-7, .col-5, .col-6{ grid-column: span 12; }
+}
