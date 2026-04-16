@@ -15,9 +15,6 @@
           <a class="btn primary" href="/cv/vasileios-sevetlidis-cv.pdf" download>
             Download CV PDF
           </a>
-          <a class="btn" href="/cv/vasileios-sevetlidis-cv.tex" download>
-            LaTeX source
-          </a>
           <RouterLink class="btn primary" to="/research">Research map</RouterLink>
           <RouterLink class="btn" to="/contact">Contact</RouterLink>
         </div>
