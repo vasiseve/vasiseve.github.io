@@ -135,7 +135,7 @@ const researchGroups = [
           },
           {
             title: "Two-Stage Angular Alignment for Positive-Unlabeled Learning",
-            venue: "ICPRAM",
+            venue: "International Conference on Pattern Recognition Applications and Methods (ICPRAM)",
             year: "2026",
             href: "https://www.scitepress.org/Papers/2026/139641/139641.pdf",
             note: "A two-stage angular alignment strategy for PU settings.",
@@ -159,7 +159,7 @@ const researchGroups = [
           },
           {
             title: "Positive and unlabelled learning with data approximation for photovoltaic defect detection",
-            venue: "IST",
+            venue: "IEEE International Conference on Imaging Systems and Techniques",
             year: "2024",
             href: "https://doi.org/10.1109/IST63414.2024.10759214",
             note: "PU learning for defect detection under limited annotation.",
@@ -198,7 +198,7 @@ const researchGroups = [
           },
           {
             title: "Defect detection using weakly supervised learning",
-            venue: "IST",
+            venue: "IEEE International Conference on Imaging Systems and Techniques",
             year: "2023",
             href: "https://arxiv.org/abs/2303.15092",
             note: "Weak-supervision methods for industrial defect detection.",
@@ -214,7 +214,7 @@ const researchGroups = [
           },
           {
             title: "Web acquired image datasets need curation: An exemplar pipeline evaluated on Greek food images",
-            venue: "IST",
+            venue: "IEEE International Conference on Imaging Systems and Techniques",
             year: "2021",
             href: "https://ieeexplore.ieee.org/abstract/document/9651419",
             note: "A curation pipeline for noisy web-acquired image datasets.",
@@ -285,7 +285,7 @@ const researchGroups = [
           },
           {
             title: "Efficient colour sorting of Chios mastiha",
-            venue: "IST",
+            venue: "IEEE International Conference on Imaging Systems and Techniques",
             year: "2014",
             href: "https://ieeexplore.ieee.org/abstract/document/6958510",
             note: "Machine vision for color sorting in an agricultural product pipeline.",
