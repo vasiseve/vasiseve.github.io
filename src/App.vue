@@ -13,8 +13,8 @@
         </nav>
 
         <div class="cta">
-          <a class="btn" href="/#/iclr">ICLR</a>
-          <a class="btn" href="/#/aistats">AISTATS</a>
+          <a class="btn" href="/#/iclr">ICLR26</a>
+          <a class="btn" href="/#/aistats">AISTATS26</a>
           <a class="btn primary" href="/#/contact">Email</a>
         </div>
       </div>
