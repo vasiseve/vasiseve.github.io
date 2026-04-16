@@ -154,9 +154,13 @@ const researchGroups = [
             title: "Angular Regularization for Positive-Unlabeled Learning on the Hypersphere",
             venue: "Transactions on Machine Learning Research",
             year: "2025",
-            href: "https://openreview.net/forum?id=XQhO0Ly6el",
+            href: "https://vasiseve.github.io/Angular-Regularization-PU-Hypersphere/#faq",
             note: "A geometric regularization view of PU learning.",
             tags: ["PU learning", "geometry", "regularization"],
+            links: [
+              { label: "Project", href: "https://vasiseve.github.io/Angular-Regularization-PU-Hypersphere/#faq" },
+              { label: "OpenReview", href: "https://openreview.net/forum?id=XQhO0Ly6el" },
+            ],
           },
           {
             title: "Two-Stage Angular Alignment for Positive-Unlabeled Learning",

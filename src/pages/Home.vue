@@ -107,6 +107,7 @@
               </div>
               <div class="row">
                 <RouterLink class="btn small" to="/research">Research</RouterLink>
+                <a class="btn small" href="https://vasiseve.github.io/Angular-Regularization-PU-Hypersphere/#faq" target="_blank" rel="noreferrer">Project</a>
                 <a class="btn small" href="https://openreview.net/forum?id=XQhO0Ly6el" target="_blank" rel="noreferrer">TMLR paper</a>
                 <a class="btn small" href="https://doi.org/10.1109/ACCESS.2024.3420453" target="_blank" rel="noreferrer">Dense-PU</a>
               </div>

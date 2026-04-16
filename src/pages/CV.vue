@@ -295,7 +295,7 @@ const publications = [
         title: "Angular Regularization for Positive-Unlabeled Learning on the Hypersphere",
         venue: "TMLR",
         year: "2025",
-        href: "https://openreview.net/forum?id=XQhO0Ly6el",
+        href: "https://vasiseve.github.io/Angular-Regularization-PU-Hypersphere/#faq",
       },
       {
         title: "Dense-PU: Learning a Density-Based Boundary for Positive and Unlabeled Learning",
