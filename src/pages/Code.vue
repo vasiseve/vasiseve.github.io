@@ -23,29 +23,29 @@
       <div class="grid">
         <RepoCard
           class="col-6"
-          title="Your flagship repo"
-          subtitle="One sentence: what it does + who it’s for."
-          :tags="['PU learning', 'baselines', 'reproducibility']"
+          title="Gauge-invariant representation holonomy"
+          subtitle="Code and experiment artifacts for the ICLR paper on path-sensitive representation geometry."
+          :tags="['representation geometry', 'holonomy', 'ICLR']"
           status="Maintained"
           :links="[
-            { label: 'Repo', href: 'https://github.com/vasiseve' },
-            { label: 'Docs', href: 'https://github.com/vasiseve' },
-            { label: 'Paper', href: 'https://arxiv.org/search/cs?searchtype=author&query=Sevetlidis,+V' }
+            { label: 'Repo', href: 'https://github.com/vasiseve/gauge-invariant-representation-holonomy-code' },
+            { label: 'Project', href: 'https://vasiseve.github.io/Gauge-Invariant-Representation-Holonomy' },
+            { label: 'Paper page', href: '/#/iclr' }
           ]"
-          snippet="pip install your-package-name"
+          snippet="git clone https://github.com/vasiseve/gauge-invariant-representation-holonomy-code"
         />
 
         <RepoCard
           class="col-6"
-          title="Paper reproduction: <paper-slug>"
-          subtitle="Reproducible experiments and results for the paper."
-          :tags="['weak supervision', 'experiments']"
+          title="Process-Tensor Tomography of SGD"
+          subtitle="Paper page and reproducibility links for the AISTATS work on observable training memory."
+          :tags="['training memory', 'SGD', 'AISTATS']"
           status="Stable"
           :links="[
-            { label: 'Repo', href: 'https://github.com/vasiseve' },
-            { label: 'PDF', href: 'https://arxiv.org/search/cs?searchtype=author&query=Sevetlidis,+V' }
+            { label: 'Paper page', href: '/#/aistats' },
+            { label: 'PDF', href: '/aistats/process-tensor-tomography-of-sgd.pdf' },
+            { label: 'Supplement', href: '/aistats/process-tensor-tomography-of-sgd-supplement.pdf' }
           ]"
-          snippet="python -m pip install -r requirements.txt && python run.py"
         />
       </div>
 

@@ -14,6 +14,9 @@
 
           <div class="row">
             <a class="btn primary" :href="paperUrl" target="_blank" rel="noreferrer">Paper PDF</a>
+            <a class="btn" :href="projectUrl" target="_blank" rel="noreferrer">Project page</a>
+            <a class="btn" :href="codeUrl" target="_blank" rel="noreferrer">Code</a>
+            <a class="btn" :href="openReviewUrl" target="_blank" rel="noreferrer">OpenReview</a>
             <a class="btn" :href="mailtoUrl">Ask me about it</a>
           </div>
         </div>
@@ -180,6 +183,9 @@ const baseUrl = import.meta.env.BASE_URL;
 const asset = (path) => `${baseUrl}${path}`;
 
 const paperUrl = asset("iclr/gauge-invariant-representation-holonomy.pdf");
+const projectUrl = "https://vasiseve.github.io/Gauge-Invariant-Representation-Holonomy";
+const codeUrl = "https://github.com/vasiseve/gauge-invariant-representation-holonomy-code";
+const openReviewUrl = "https://openreview.net/forum?id=czJqKToDGq";
 const schematicUrl = asset("iclr/holonomy_schematic.png");
 const mnistUrl = asset("iclr/holonomy_mnist.png");
 const smallRadiusUrl = asset("iclr/small_radius_layer2.png");

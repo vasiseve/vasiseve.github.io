@@ -272,7 +272,7 @@ const publications = [
         title: "Gauge-invariant representation holonomy",
         venue: "ICLR",
         year: "2026",
-        href: "https://openreview.net/forum?id=czJqKToDGq",
+        href: "https://vasiseve.github.io/Gauge-Invariant-Representation-Holonomy",
       },
       {
         title: "Process-Tensor Tomography of SGD: Measuring Non-Markovian Memory via Back-Flow of Distinguishability",

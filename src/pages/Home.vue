@@ -70,6 +70,8 @@
               </div>
               <div class="row">
                 <a class="btn small" href="/#/iclr">Paper page</a>
+                <a class="btn small" href="https://vasiseve.github.io/Gauge-Invariant-Representation-Holonomy" target="_blank" rel="noreferrer">Project</a>
+                <a class="btn small" href="https://github.com/vasiseve/gauge-invariant-representation-holonomy-code" target="_blank" rel="noreferrer">Code</a>
                 <a class="btn small" href="https://openreview.net/forum?id=czJqKToDGq" target="_blank" rel="noreferrer">OpenReview</a>
                 <a class="btn small" href="/iclr/gauge-invariant-representation-holonomy.pdf" target="_blank" rel="noreferrer">PDF</a>
               </div>

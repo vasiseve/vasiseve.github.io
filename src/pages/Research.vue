@@ -61,6 +61,18 @@
                 <div v-if="paper.tags?.length" class="tags">
                   <span v-for="tag in paper.tags" :key="tag" class="tag">{{ tag }}</span>
                 </div>
+                <div v-if="paper.links?.length" class="paper-links">
+                  <a
+                    v-for="link in paper.links"
+                    :key="paper.title + link.label"
+                    class="btn small"
+                    :href="link.href"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {{ link.label }}
+                  </a>
+                </div>
               </article>
             </div>
           </article>
@@ -106,9 +118,14 @@ const researchGroups = [
             title: "Gauge-invariant representation holonomy",
             venue: "ICLR",
             year: "2026",
-            href: "https://openreview.net/forum?id=czJqKToDGq",
+            href: "https://vasiseve.github.io/Gauge-Invariant-Representation-Holonomy",
             note: "A path-sensitive statistic for curvature-like structure in learned representations.",
             tags: ["representation geometry", "holonomy", "diagnostics"],
+            links: [
+              { label: "Project", href: "https://vasiseve.github.io/Gauge-Invariant-Representation-Holonomy" },
+              { label: "Code", href: "https://github.com/vasiseve/gauge-invariant-representation-holonomy-code" },
+              { label: "OpenReview", href: "https://openreview.net/forum?id=czJqKToDGq" },
+            ],
           },
           {
             title: "Training Memory in Deep Neural Networks: Mechanisms, Evidence, and Measurement Gaps",
@@ -540,6 +557,13 @@ const questions = [
 .venue{ margin: 5px 0 0; color: var(--muted2); font-weight: 700; font-size: 0.92rem; }
 .note{ margin: 6px 0 0; color: var(--muted); font-size: 0.95rem; }
 .tags{ display: flex; justify-content: flex-end; gap: 6px; flex-wrap: wrap; max-width: 280px; }
+.paper-links{
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: -2px;
+}
 .tag{
   padding: 5px 8px;
   border: 1px solid var(--border);

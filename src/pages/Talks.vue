@@ -46,16 +46,16 @@
       <div class="grid">
         <TalkCard
           class="col-12"
-          title="Your talk/poster title (edit me)"
+          title="Gauge-invariant representation holonomy"
           event="ICLR"
           date="2026"
           kind="Poster"
-          abstract="1-minute abstract: problem → key idea → result → what’s reusable."
+          abstract="A geometric diagnostic for learned representations that measures the residual twist accumulated when features are transported around closed paths."
           :links="[
-            { label: 'Paper', href: '#' },
-            { label: 'Poster PDF', href: '#' },
-            { label: 'Slides', href: '#' },
-            { label: 'Code', href: '#' }
+            { label: 'Paper page', href: '/#/iclr' },
+            { label: 'Project', href: 'https://vasiseve.github.io/Gauge-Invariant-Representation-Holonomy' },
+            { label: 'OpenReview', href: 'https://openreview.net/forum?id=czJqKToDGq' },
+            { label: 'Code', href: 'https://github.com/vasiseve/gauge-invariant-representation-holonomy-code' }
           ]"
         />
       </div>
