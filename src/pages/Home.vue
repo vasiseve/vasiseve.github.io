@@ -92,7 +92,6 @@
                 <a class="btn small" href="https://github.com/vasiseve/Process-Tensor-Tomography-of-SGD-Measuring-Non-Markovian-Memory-via-Back-Flow-of-Distinguishability" target="_blank" rel="noreferrer">Code</a>
                 <a class="btn small" href="https://openreview.net/forum?id=TonOzlbE3k" target="_blank" rel="noreferrer">OpenReview</a>
                 <a class="btn small" href="/aistats/process-tensor-tomography-of-sgd.pdf" target="_blank" rel="noreferrer">PDF</a>
-                <a class="btn small" href="/aistats/process-tensor-tomography-of-sgd-supplement.pdf" target="_blank" rel="noreferrer">Supplement</a>
               </div>
             </div>
 
