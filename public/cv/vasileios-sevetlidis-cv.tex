@@ -1,0 +1,220 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=1.75cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{ink}{HTML}{1F2933}
+\definecolor{muted}{HTML}{5F6B75}
+\definecolor{accent}{HTML}{2F6F73}
+\definecolor{rule}{HTML}{D8DEE4}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlength{\emergencystretch}{3em}
+\setlist[itemize]{leftmargin=1.2em,itemsep=2pt,topsep=2pt}
+\setlist[enumerate]{leftmargin=1.4em,itemsep=3pt,topsep=3pt}
+
+\titleformat{\section}
+  {\large\bfseries\color{accent}}
+  {}
+  {0pt}
+  {}
+  [\vspace{-4pt}{\color{rule}\titlerule}]
+
+\newcommand{\cvsection}[1]{\section*{#1}}
+\newcommand{\role}[4]{%
+  \textbf{#2}\hfill{\color{muted}#1}\\
+  \textit{#3}\\
+  #4\par\vspace{3pt}
+}
+\newcommand{\degree}[4]{%
+  \textbf{#2}\hfill{\color{muted}#1}\\
+  \textit{#3}\\
+  #4\par\vspace{3pt}
+}
+\newcommand{\paper}[4]{%
+  \item \textbf{\href{#4}{#1}}. #2. \textit{#3}.
+}
+\newcommand{\paperplain}[3]{%
+  \item \textbf{#1}. #2. \textit{#3}.
+}
+
+\begin{document}
+
+{\Huge\bfseries Vasileios Sevetlidis}\\[3pt]
+{\Large Machine Learning Researcher}\\[8pt]
+\href{mailto:vasiseve@athenarc.gr}{vasiseve@athenarc.gr} \quad
+\href{https://vasiseve.github.io}{vasiseve.github.io} \quad
+\href{https://orcid.org/0000-0001-9348-8786}{ORCID: 0000-0001-9348-8786}\\
+\href{https://scholar.google.com/citations?user=8RIQDfoAAAAJ&hl=en}{Google Scholar} \quad
+\href{https://arxiv.org/search/cs?searchtype=author&query=Sevetlidis,+V}{arXiv} \quad
+\href{https://github.com/vasiseve}{GitHub} \quad
+\href{https://gitlab.com/vasiseve}{GitLab}
+
+\vspace{8pt}
+
+\cvsection{Profile}
+I am a machine learning researcher studying how learning systems evolve over time. My research asks how models organize information, retain memory of training, and develop path-dependent behavior through optimization. I work at the intersection of geometry, dynamics, and statistical learning, with interests in weak supervision, positive-unlabeled learning, representation geometry, training memory, and diffusion models.
+
+More broadly, I see machine learning as a dynamical process whose behavior cannot be understood only through final performance. I am interested in how representations form, how optimization preserves traces of history, and how generative models reflect the geometric structure of the fields they learn.
+
+\cvsection{Research Interests}
+\begin{itemize}
+  \item Learning dynamics, optimizer memory, and path-dependent behavior in deep neural networks.
+  \item Representation geometry, gauge-invariant diagnostics, holonomy, and geometric statistics for learned features.
+  \item Positive-unlabeled learning, weak supervision, label bias, and learning from incomplete supervision.
+  \item Dataset bias, anomaly-informed training, machine vision, and applied learning systems.
+  \item Diffusion models, generative modeling, and geometry-aware diagnostics for sampling dynamics.
+\end{itemize}
+
+\cvsection{Current Positions}
+\role{Feb 2025--present}{Adjunct Professor}{International Hellenic University}{Department of Computer, Informatics and Telecommunications Engineering.}
+\role{Nov 2024--present}{Postdoctoral Researcher}{Democritus University of Thrace}{Automation and Robotics Laboratory, Department of Production and Management Engineering.}
+\role{Jan 2019--present}{Research Associate}{Athena Research Center}{Collaboration with the Institute for Language and Speech Processing.}
+\role{Jul 2022--present}{Freelance IT Engineer}{Independent practice}{Software, data, and machine-learning engineering work.}
+
+\cvsection{Education}
+\degree{2018--2024}{PhD, Production and Management Engineering}{Democritus University of Thrace}{Dissertation: \textit{Learning from positive and unlabeled data for imbalanced datasets: theory and real-world applications}.}
+\degree{2016--2018}{MSc, Applied Archaeological Sciences}{University of the Aegean}{Graduated summa cum laude. Thesis: \textit{A Machine Learning Approach to Analysis and Classification of Measurements in Cultural Heritage}.}
+\degree{2014--2016}{Doctoral Studies, Image Analysis}{IMT Institute for Advanced Studies Lucca}{Withdrew. Research topic: learning-based modality synthesis and normalization for cardiovascular magnetic resonance imaging.}
+\degree{2008--2013}{BSc, Information and Communication Engineering}{TEI of Central Macedonia}{Graduated summa cum laude.}
+
+\cvsection{Professional Experience}
+\role{Jun 2019--Oct 2020}{Research Associate}{Foundation for Research and Technology - Hellas}{Collaboration with the Institute for Mediterranean Studies.}
+\role{Nov 2015--Aug 2016}{Visiting Researcher}{University of Edinburgh}{Electrical Engineering; learning-based image modality synthesis.}
+\role{Sep 2013--Aug 2014}{Research Associate}{Athena Research Center}{Collaboration with the Institute for Language and Speech Processing.}
+\role{Feb 2013--Jun 2013}{Intern}{OTE S.A.}{Transmission and access network.}
+
+\cvsection{Teaching}
+\role{Feb 2025--Jun 2025; Feb 2026--Jun 2026}{Operating Systems I}{International Hellenic University}{Department of Computer, Informatics and Telecommunications Engineering.}
+\role{Sep 2025--Jan 2026}{Operating Systems II}{International Hellenic University}{Department of Computer, Informatics and Telecommunications Engineering.}
+\role{Sep 2025--Jan 2026}{Simulation and System Identification}{International Hellenic University}{Department of Computer, Informatics and Telecommunications Engineering.}
+
+\cvsection{Selected Research Projects}
+\begin{itemize}
+  \item \textbf{\href{https://www.argus-project.eu}{ARGUS}} (2024): Non-destructive, scalable, smart monitoring of remote cultural treasures.
+  \item \textbf{\href{https://firefly.athenarc.gr}{Firefly}} (2024): Fostering virtual heritage experience for elderly users.
+  \item \textbf{\href{http://canti.athenarc.gr}{CAnTi}} (2022): Conservation of Ancient Tiryns.
+  \item \textbf{\href{http://thalia.athenarc.gr}{Thalia}} (2022): Digital toolset for the analysis, promotion, and protection of Greek cultural reserves in small cultural institutions.
+  \item \textbf{\href{https://tramir.bookscanner.gr}{Tramir}} (2022): Interactive music room for traditional Greek music instruments and dances.
+  \item \textbf{\href{http://evrinomi.athenarc.gr}{Evrinomi}} (2022): Documentation and promotion of human creativity and culture at the Archaeological Museum of Patras.
+  \item \textbf{\href{http://www.warmestproject.eu/}{WARMEST}} (2022): Remote sensing and integrated maintenance models for cultural heritage sites.
+  \item \textbf{\href{http://philotis.athenarc.gr}{PHILOTIS}} (2020): Technologies for recording, analysis, and documentation of living languages.
+  \item \textbf{\href{http://gre-taste.ceti.gr}{Gre-Taste}} (2019): AI and data systems for Greek gastronomy.
+  \item \textbf{\href{https://politeia-ii.ims.forth.gr/vtms}{POLITEIA II}} (2019): Cultural heritage technology, documentation, and accessibility.
+  \item \textbf{\href{http://advent.ceti.gr}{AdVENt}} (2019): Augmented tours in national parks.
+  \item \textbf{\href{http://3dcms.ceti.gr}{3DCMS}} (2013): Platform for the development and management of 3D cultural heritage applications.
+\end{itemize}
+
+\cvsection{Awards and Scholarships}
+\begin{itemize}
+  \item Scholarship and distinction for graduating first in the MSc cohort, University of the Aegean, 2018.
+  \item Erasmus+ Mobility Consortium for traineeships, ``Talent at Work'', 2015/2016.
+  \item Italian Government scholarship for doctoral studies, 2014.
+  \item Scholarship and distinction for graduating first, TEI of Central Macedonia, 2013.
+\end{itemize}
+
+\cvsection{Service}
+\begin{itemize}
+  \item Session Chair, International Conference on Pattern Recognition Applications and Methods.
+  \item Program Committee, EETN Conference on Artificial Intelligence.
+  \item Reviewer, International Conference on Machine Learning.
+  \item Reviewer, Neural Information Processing Systems.
+  \item Reviewer, International Journal of Computational Methods in Heritage Science.
+  \item Reviewer, 5th CAA-GR Conference, Transforming Heritage Research in a Transforming World, 2024.
+\end{itemize}
+
+\cvsection{Publications}
+\textbf{Learning dynamics, representation geometry, and training memory}
+\begin{enumerate}
+  \paper{Process-Tensor Tomography of SGD: Measuring Non-Markovian Memory via Back-Flow of Distinguishability}{V. Sevetlidis and G. Pavlidis}{AISTATS, 2026}{https://openreview.net/forum?id=TonOzlbE3k}
+  \paper{Gauge-invariant representation holonomy}{V. Sevetlidis and G. Pavlidis}{ICLR, 2026}{https://openreview.net/forum?id=czJqKToDGq}
+  \paper{Training Memory in Deep Neural Networks: Mechanisms, Evidence, and Measurement Gaps}{V. Sevetlidis and G. Pavlidis}{arXiv, 2026}{https://arxiv.org/abs/2601.21624}
+\end{enumerate}
+
+\textbf{Positive-unlabeled learning and weak supervision}
+\begin{enumerate}
+  \paper{Angular Regularization for Positive-Unlabeled Learning on the Hypersphere}{V. Sevetlidis, G. Pavlidis, and A. Gasteratos}{Transactions on Machine Learning Research, 2025}{https://openreview.net/forum?id=XQhO0Ly6el}
+  \paper{Two-Stage Angular Alignment for Positive-Unlabeled Learning}{V. Sevetlidis, G. Pavlidis, and A. Gasteratos}{International Conference on Pattern Recognition Applications and Methods, 2026}{https://www.scitepress.org/Papers/2026/139641/139641.pdf}
+  \paper{Dense-PU: Learning a Density-Based Boundary for Positive and Unlabeled Learning}{V. Sevetlidis, G. Pavlidis, S. G. Mouroutsos, and A. Gasteratos}{IEEE Access, 2024}{https://doi.org/10.1109/ACCESS.2024.3420453}
+  \paper{Leveraging Positive-Unlabeled Learning for Enhanced Black Spot Accident Identification on Greek Road Networks}{V. Sevetlidis, G. Pavlidis, S. G. Mouroutsos, and A. Gasteratos}{Computers, 2024}{https://doi.org/10.3390/computers13020049}
+  \paper{Positive and Unlabelled Learning with Data Approximation for Photovoltaic Defect Detection}{V. Sevetlidis, G. Pavlidis, S. G. Mouroutsos, T. Karakatsanis, and A. Gasteratos}{IEEE International Conference on Imaging Systems and Techniques, 2024}{https://doi.org/10.1109/IST63414.2024.10759214}
+  \paper{Detecting Media Clones in Cultural Repositories Using a Positive Unlabeled Learning Approach}{V. Sevetlidis, V. Arampatzakis, M. Karta, I. Mourthos, D. Tsiafaki, and G. Pavlidis}{arXiv, 2026}{https://arxiv.org/abs/2604.04071}
+  \paper{Learning from positive and unlabeled data for imbalanced datasets: theory and real-world applications}{V. Sevetlidis}{PhD thesis, Democritus University of Thrace, 2024}{https://repo.lib.duth.gr/jspui/handle/123456789/19964}
+  \paper{Enhancing Weakly Supervised Defect Detection Through Anomaly-Informed Weighted Training}{V. Sevetlidis, G. Pavlidis, V. Balaska, A. Psomoulis, S. G. Mouroutsos, and A. Gasteratos}{IEEE Transactions on Instrumentation and Measurement, 2024}{https://ieeexplore.ieee.org/document/10716729/}
+  \paper{Defect Detection Using Weakly Supervised Learning}{V. Sevetlidis, G. Pavlidis, V. Balaska, A. Psomoulis, S. Mouroutsos, and A. Gasteratos}{IEEE International Conference on Imaging Systems and Techniques, 2023}{https://arxiv.org/abs/2303.15092}
+\end{enumerate}
+
+\textbf{Dataset bias, applied machine learning, and machine vision}
+\begin{enumerate}
+  \paper{Machine Vision in Human-Centric Manufacturing: A Review from the Perspective of the Frozen Dough Industry}{V. Balaska, A. Tserkezis, F. Konstantinidis, V. Sevetlidis, S. Symeonidis, T. Karakatsanis, and A. Gasteratos}{Electronics, 2025}{https://doi.org/10.3390/electronics14173361}
+  \paper{Deep Learning-Based Black Spot Identification on Greek Road Networks}{I. Karamanlis, A. Kokkalis, V. Profillidis, G. Botzoris, C. Kiourt, V. Sevetlidis, and G. Pavlidis}{Data, 2023}{https://doi.org/10.3390/data8060110}
+  \paper{Tackling Dataset Bias With an Automated Collection of Real-World Samples}{V. Sevetlidis, G. Pavlidis, S. Mouroutsos, and A. Gasteratos}{IEEE Access, 2022}{https://doi.org/10.1109/ACCESS.2022.3226517}
+  \paper{Web Acquired Image Datasets Need Curation: An Exemplar Pipeline Evaluated on Greek Food Images}{V. Sevetlidis, G. Pavlidis, V. Arampatzakis, C. Kiourt, S. G. Mouroutsos, and A. Gasteratos}{IEEE International Conference on Imaging Systems and Techniques, 2021}{https://ieeexplore.ieee.org/abstract/document/9651419}
+  \paperplain{AUGMENTING EXISTING FOOD IMAGE DATASETS WITH GREEK DISHES}{V. Sevetlidis, C. Kiourt, C. Tzouvara, G. Tastzoglou, and G. Pavlidis}{Big Data in Archaeology, 2021}
+  \paper{Whole Image Synthesis Using a Deep Encoder-Decoder Network}{V. Sevetlidis, M. V. Giuffrida, and S. A. Tsaftaris}{Simulation and Synthesis in Medical Imaging, MICCAI workshop, 2016}{https://doi.org/10.1007/978-3-319-46630-9_13}
+  \paper{BK Tree Indexing for Active Vision-Based Loop-Closure Detection in Autonomous Navigation}{K. A. Tsintotas, V. Sevetlidis, I. T. Papapetros, V. Balaska, A. Psomoulis, and A. Gasteratos}{Mediterranean Conference on Control and Automation, 2022}{https://ieeexplore.ieee.org/document/9837138/}
+  \paper{Shaping the Behavior of Reinforcement Learning Agents}{G. Sidiropoulos, C. Kiourt, V. Sevetlidis, and G. Pavlidis}{Pan-Hellenic Conference on Informatics, 2021}{https://doi.org/10.1145/3503823.3503905}
+\end{enumerate}
+
+\textbf{Cultural heritage, digital twins, and scientific measurements}
+\begin{enumerate}
+  \paper{PANOPTES: A Digital Twin Ontology for Cultural Asset Management}{G. Pavlidis, V. Sevetlidis, and V. Arampatzakis}{IEEE-CH, 2025}{https://doi.org/10.5281/zenodo.16633603}
+  \paper{Defining a New Digital Twin Ontology for Cultural Heritage Preservation - the Case of ARGUS}{G. Pavlidis, V. Sevetlidis, and V. Arampatzakis}{Eurographics, 2025}{https://zenodo.org/records/17276771}
+  \paper{Towards Evolving Actor-Network Ontologies: Enabling Reflexive Digital Twins for Cultural Heritage}{G. Pavlidis, V. Arampatzakis, V. Sevetlidis, A. Koutsoudis, F. Arnaoutoglou, G. A. Ioannakis, and C. Kiourt}{Information, 2025}{https://doi.org/10.3390/info16100892}
+  \paper{Future-Proofing Heritage with ARGUS: A Multimodal Digital Twin Approach for Sustainable Preservation}{G. Pavlidis, A. Koutsoudis, D. Tsiafakis, M. Karta, V. Sevetlidis, and others}{CAA Proceedings, 2025}{https://doi.org/10.5281/zenodo.17755550}
+  \paper{Sensor-Driven Preventive Preservation in Remote Built Heritage: A Threat-to-Sensor Approach}{G. Pavlidis, V. Sevetlidis, V. Arampatzakis, S. Aparicio, F. Ramonet, and others}{IEEE-CH, 2025}{https://ieeexplore.ieee.org/abstract/document/11279543}
+  \paper{Towards Complete Digital Twins in Cultural Heritage with ART3mis 3D Artifacts Annotator}{D. Karamatskos, V. Arampatzakis, V. Sevetlidis, S. Nousias, A. Kalogeras, and others}{arXiv, 2026}{https://arxiv.org/abs/2602.12761}
+  \paper{Art3mis: Ray-Based Textual Annotation on 3D Cultural Objects}{V. Arampatzakis, V. Sevetlidis, F. Arnaoutoglou, A. Kalogeras, C. Koulamas, and others}{arXiv, 2026}{https://arxiv.org/abs/2602.12725}
+  \paper{Museatopia: A Cultural Metaverse}{V. Arampatzakis, H. G. Theodoropoulou, C. Kiourt, V. Sevetlidis, and G. Pavlidis}{CAA-GR, 2026}{https://doi.org/10.1007/978-3-032-06389-2_18}
+  \paper{Effective Raman Spectra Identification with Tree-Based Methods}{V. Sevetlidis and G. Pavlidis}{Journal of Cultural Heritage, 2019}{https://doi.org/10.1016/j.culher.2018.10.016}
+  \paper{Hierarchical Classification for Improved Compound Identification in Raman Spectroscopy}{V. Sevetlidis and G. Pavlidis}{CAA-GR, 2018}{https://sites.caa-international.org/gr/wp-content/uploads/sites/26/2019/04/CAA-GR-2018-proceedings.pdf}
+  \paper{A Machine Learning Approach to Analysis and Classification of Measurements in Cultural Heritage}{V. Sevetlidis}{MSc thesis, University of the Aegean, 2018}{https://www.openarchives.gr/aggregator-openarchives/edm/hellanicus/000100-11610_19962?language=en}
+  \paper{Efficient Colour Sorting of Chios Mastiha}{G. Pavlidis, S. Mouroutsos, and V. Sevetlidis}{IEEE International Conference on Imaging Systems and Techniques, 2014}{https://ieeexplore.ieee.org/abstract/document/6958510}
+  \paper{Sustainability through Digital Transition: The Case of Small Cultural Stakeholders}{G. Pavlidis, S. Markantonatou, K. Chairi, V. Sevetlidis, V. Arampatzakis, and others}{Conference proceedings, 2024}{https://doi.org/10.12681/elrie.7138}
+  \paper{Demystifying Publishing to Europeana: A Practical Workflow for Content Providers}{G. Pavlidis and V. Sevetlidis}{Scientific Culture, 2015}{https://www.sci-cult.com/demystifying-publishing-to-europeana-a-practical-workflow-for-content-providers/}
+\end{enumerate}
+
+\textbf{Language technology, human-centric interaction, and society}
+\begin{enumerate}
+  \paper{ASR Pipeline for Low-Resourced Languages: A Case Study on Pomak}{C. Tsoukala, K. Kritsis, I. Douros, A. Katsamanis, N. Kokkas, V. Arampatzakis, V. Sevetlidis, S. Markantonatou, and G. Pavlidis}{NLP Applications to Field Linguistics, 2023}{https://aclanthology.org/2023.fieldmatters-1.5/}
+  \paper{Morphologically Annotated Corpora of Pomak}{R. J. Karahoga, P. G. Krimpas, V. Stamou, V. Arampatzakis, D. Karamatskos, V. Sevetlidis, and S. Markantonatou}{Computational Methods in the Study of Endangered Languages, 2022}{https://aclanthology.org/2022.computel-1.22/}
+  \paper{Philotis: NLP Informed Language Documentation of Under-Resourced Languages - The Case of Pomak}{V. Stamou, V. Arampatzakis, N. Constantinides, N. Kokkas, D. Karamatskos, V. Sevetlidis, and others}{HCSTG, 2022}{https://doi.org/10.5281/zenodo.7598116}
+  \paper{Human-Centric Emotion Recognition in VR for Humanities Research}{V. Sevetlidis, V. Arampatzakis, G. Pavlidis, and S. Sylaiou}{CAA-GR, 2026}{https://doi.org/10.1007/978-3-032-06389-2_21}
+  \paper{Towards Reshaping Children's Habits: Vitalia's AR-Gamified Approach}{V. Arampatzakis, V. Sevetlidis, V. Derri, M. Raffi, and G. Pavlidis}{Information, 2025}{https://doi.org/10.3390/info16070606}
+  \paper{Sustainable Ecotourism through Cutting-Edge Technologies}{G. Pavlidis, A. Solomou, S. Stamouli, V. Papavassiliou, K. Kritsis, C. Kiourt, V. Sevetlidis, and others}{Sustainability, 2022}{https://doi.org/10.3390/su14020800}
+  \paper{GRASP-125: A Dataset for Greek Vascular Plant Recognition in Natural Environment}{K. Kritsis, C. Kiourt, S. Stamouli, V. Sevetlidis, A. Solomou, G. Karetsos, and others}{Sustainability, 2021}{https://doi.org/10.3390/su132111865}
+  \paper{AI in Gastronomic Tourism}{G. Pavlidis, S. L. Markantonatou, K. R. Toraki, A. N. Vacalopoulou, and others}{Signal Processing and Information Technology, 2020}{https://doi.org/10.5281/zenodo.3862543}
+\end{enumerate}
+
+\cvsection{Technical Reports and Theses}
+\begin{itemize}
+  \item V. Sevetlidis. \textit{Learning from positive and unlabeled data for imbalanced datasets: theory and real-world applications}. PhD dissertation, Democritus University of Thrace, 2024.
+  \item V. Sevetlidis. \textit{A Machine Learning Approach to Analysis and Classification of Measurements in Cultural Heritage}. MSc thesis, University of the Aegean, 2018.
+  \item V. Sevetlidis. \textit{Analysis of Color Images for Colour Based Image Retrieval Applications}. BSc thesis, TEI of Central Macedonia, 2013.
+  \item G. Pavlidis, V. Sevetlidis, and M. Charalampidou. \textit{Improvement of Digitization and Modeling Methods}. Technical report, 2014.
+  \item G. Pavlidis, V. Sevetlidis, and M. Charalampidou. \textit{Methods for 3D Digitization of Objects and Monuments}. Technical report, 2014.
+  \item G. Pavlidis and V. Sevetlidis. \textit{Europeana Connectivity Study}. Technical report, 2014.
+  \item G. Pavlidis and V. Sevetlidis. \textit{Documentation Schemas for Museums and 3D Objects}. Technical report, 2014.
+  \item G. Pavlidis and V. Sevetlidis. \textit{Competitive Related Products}. Technical report, 2013.
+\end{itemize}
+
+\cvsection{Languages, Certificates, and Activities}
+\begin{itemize}
+  \item Languages: Greek (native), English (B2), Italian (basic).
+  \item Certified UAS pilot, open category, 2020.
+  \item Introduction to Grid Computing, SURFSara, Dutch HPC and e-Science, 2014.
+  \item Fiber Optics Association certification, 2012.
+  \item Open-sea sailing license, 2019.
+  \item Photography exhibitions and competitions, 2013--present.
+\end{itemize}
+
+\end{document}

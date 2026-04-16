@@ -12,6 +12,12 @@
         </div>
 
         <div class="row">
+          <a class="btn primary" href="/cv/vasileios-sevetlidis-cv.pdf" download>
+            Download CV PDF
+          </a>
+          <a class="btn" href="/cv/vasileios-sevetlidis-cv.tex" download>
+            LaTeX source
+          </a>
           <RouterLink class="btn primary" to="/research">Research map</RouterLink>
           <RouterLink class="btn" to="/contact">Contact</RouterLink>
         </div>
@@ -23,8 +29,8 @@
         <div class="summary-card">
           <span class="kicker">Current roles</span>
           <p>
-            Postdoctoral Researcher at Democritus University of Thrace and Research Associate
-            at Athena Research Center.
+            Adjunct Professor at International Hellenic University, Postdoctoral Researcher
+            at Democritus University of Thrace, and Research Associate at Athena Research Center.
           </p>
         </div>
         <div class="summary-card">
@@ -144,6 +150,10 @@
         <div>
           <h2 class="h2">Service and Other</h2>
           <ul class="plain-list">
+            <li>Session Chair, International Conference on Pattern Recognition Applications and Methods.</li>
+            <li>Program Committee, EETN Conference on Artificial Intelligence.</li>
+            <li>Reviewer, International Conference on Machine Learning.</li>
+            <li>Reviewer, Neural Information Processing Systems.</li>
             <li>Reviewer, International Journal of Computational Methods in Heritage Science.</li>
             <li>Reviewer, 5th CAA-GR Conference 2024.</li>
             <li>Languages: Greek native, English B2, Italian basic.</li>
@@ -159,6 +169,12 @@
 import { RouterLink } from "vue-router";
 
 const experience = [
+  {
+    date: "Feb 2025-present",
+    title: "Adjunct Professor",
+    place: "International Hellenic University",
+    detail: "Department of Computer, Informatics & Telecommunications Engineering.",
+  },
   {
     date: "Nov 2024-present",
     title: "Postdoctoral Researcher",
