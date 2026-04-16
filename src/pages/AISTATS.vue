@@ -19,6 +19,9 @@
           <div class="row">
             <a class="btn primary" :href="paperUrl" target="_blank" rel="noreferrer">Paper PDF</a>
             <a class="btn" :href="supplementUrl" target="_blank" rel="noreferrer">Supplement</a>
+            <a class="btn" :href="projectUrl" target="_blank" rel="noreferrer">Project page</a>
+            <a class="btn" :href="codeUrl" target="_blank" rel="noreferrer">Code</a>
+            <a class="btn" :href="openReviewUrl" target="_blank" rel="noreferrer">OpenReview</a>
             <a class="btn" :href="mailtoUrl">Ask me about it</a>
           </div>
         </div>
@@ -195,6 +198,10 @@ const asset = (path) => `${baseUrl}${path}`;
 
 const paperUrl = asset("aistats/process-tensor-tomography-of-sgd.pdf");
 const supplementUrl = asset("aistats/process-tensor-tomography-of-sgd-supplement.pdf");
+const projectUrl = "https://vasiseve.github.io/Process-Tensor-Tomography-SGD/";
+const codeUrl =
+  "https://github.com/vasiseve/Process-Tensor-Tomography-of-SGD-Measuring-Non-Markovian-Memory-via-Back-Flow-of-Distinguishability";
+const openReviewUrl = "https://openreview.net/forum?id=TonOzlbE3k";
 const breakScatterUrl = asset("aistats/tv_break_scatter.png");
 const cifarRegimeUrl = asset("aistats/tv_regime_summary_ci_cifar100.png");
 const imagenetteRegimeUrl = asset("aistats/tv_regime_summary_ci_imagenette.png");

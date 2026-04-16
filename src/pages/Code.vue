@@ -38,14 +38,16 @@
         <RepoCard
           class="col-6"
           title="Process-Tensor Tomography of SGD"
-          subtitle="Paper page and reproducibility links for the AISTATS work on observable training memory."
+          subtitle="Code and project artifacts for the AISTATS work on observable training memory."
           :tags="['training memory', 'SGD', 'AISTATS']"
           status="Stable"
           :links="[
+            { label: 'Repo', href: 'https://github.com/vasiseve/Process-Tensor-Tomography-of-SGD-Measuring-Non-Markovian-Memory-via-Back-Flow-of-Distinguishability' },
+            { label: 'Project', href: 'https://vasiseve.github.io/Process-Tensor-Tomography-SGD/' },
             { label: 'Paper page', href: '/#/aistats' },
-            { label: 'PDF', href: '/aistats/process-tensor-tomography-of-sgd.pdf' },
-            { label: 'Supplement', href: '/aistats/process-tensor-tomography-of-sgd-supplement.pdf' }
+            { label: 'PDF', href: '/aistats/process-tensor-tomography-of-sgd.pdf' }
           ]"
+          snippet="git clone https://github.com/vasiseve/Process-Tensor-Tomography-of-SGD-Measuring-Non-Markovian-Memory-via-Back-Flow-of-Distinguishability"
         />
       </div>
 

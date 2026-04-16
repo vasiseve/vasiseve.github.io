@@ -278,7 +278,7 @@ const publications = [
         title: "Process-Tensor Tomography of SGD: Measuring Non-Markovian Memory via Back-Flow of Distinguishability",
         venue: "AISTATS",
         year: "2026",
-        href: "https://openreview.net/forum?id=TonOzlbE3k",
+        href: "https://vasiseve.github.io/Process-Tensor-Tomography-SGD/",
       },
       {
         title: "Training Memory in Deep Neural Networks: Mechanisms, Evidence, and Measurement Gaps",

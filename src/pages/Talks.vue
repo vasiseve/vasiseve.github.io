@@ -58,6 +58,20 @@
             { label: 'Code', href: 'https://github.com/vasiseve/gauge-invariant-representation-holonomy-code' }
           ]"
         />
+        <TalkCard
+          class="col-12"
+          title="Process-Tensor Tomography of SGD"
+          event="AISTATS"
+          date="2026"
+          kind="Poster"
+          abstract="A two-step intervention protocol for measuring observable non-Markovian memory in SGD through back-flow of distinguishability."
+          :links="[
+            { label: 'Paper page', href: '/#/aistats' },
+            { label: 'Project', href: 'https://vasiseve.github.io/Process-Tensor-Tomography-SGD/' },
+            { label: 'OpenReview', href: 'https://openreview.net/forum?id=TonOzlbE3k' },
+            { label: 'Code', href: 'https://github.com/vasiseve/Process-Tensor-Tomography-of-SGD-Measuring-Non-Markovian-Memory-via-Back-Flow-of-Distinguishability' }
+          ]"
+        />
       </div>
 
       <div class="divider"></div>

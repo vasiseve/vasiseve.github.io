@@ -110,9 +110,17 @@ const researchGroups = [
             title: "Process-Tensor Tomography of SGD: Measuring Non-Markovian Memory via Back-Flow of Distinguishability",
             venue: "AISTATS",
             year: "2026",
-            href: "https://openreview.net/forum?id=TonOzlbE3k",
+            href: "https://vasiseve.github.io/Process-Tensor-Tomography-SGD/",
             note: "An intervention-based diagnostic for observable training memory in SGD.",
             tags: ["training memory", "optimization", "dynamics"],
+            links: [
+              { label: "Project", href: "https://vasiseve.github.io/Process-Tensor-Tomography-SGD/" },
+              {
+                label: "Code",
+                href: "https://github.com/vasiseve/Process-Tensor-Tomography-of-SGD-Measuring-Non-Markovian-Memory-via-Back-Flow-of-Distinguishability",
+              },
+              { label: "OpenReview", href: "https://openreview.net/forum?id=TonOzlbE3k" },
+            ],
           },
           {
             title: "Gauge-invariant representation holonomy",
